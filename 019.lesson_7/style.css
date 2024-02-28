@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text{ 
+    padding: 2rem 1.5rem;   
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.block{
+    position: relative;
+}
+
+.ghost{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 5;
+    display: none;
+}
+
+.boo{
+    display: block;
+}
