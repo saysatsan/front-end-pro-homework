@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ДЗ 39. Ajax Weather</title>
+
+    <style>   
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: url(weather.jpg) no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        .big_wrapper{
+            padding: 30px 15px;
+            text-align: center;
+            margin-bottom: 30px;            
+        }
+        .my_weather{
+            margin-bottom: 30px;
+        }
+        .info{
+            margin-bottom: 20px;
+            
+        }
+        .search{
+            width: 60%;
+            text-align: center;
+            font-size: 28px;
+            padding: 10px 15px;
+            border-radius: 20px; 
+            margin-bottom: 20px;
+            border: none;
+            background-color:rgba(226, 207, 243, 0.363);
+            margin-left: 63px;
+            
+        }
+        button{
+            font-size: 23px;
+            padding: 10px 15px;
+            border-radius: 20px; 
+            background-color: rgb(125, 75, 172);
+            border: none;
+        } 
+      
+    </style>
+</head>
+
+<body>    
+    <div class="big_wrapper">
+        <h1 class="my_weather">Погода</h1>
+        <form action="">
+            <input type="text" name="searchCity" placeholder="введіть назву міста" class="search"> 
+            <button type="submit">OK</button>           
+        </form>        
+        <div class="weatherInfo"></div>        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

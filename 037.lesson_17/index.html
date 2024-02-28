@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ДЗ 37. ATM with Promise </title>
+
+    <style>
+        body{
+            background: #000;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: chartreuse;
+            font-size: 40px;
+        }
+
+        .big_wrapper{
+            display: flex; 
+            justify-content: center;
+        }
+
+        .question_wrapper,
+        .currency_wrapper,
+        .set_money_wrapper{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+       
+
+        }
+
+        .question,
+        .balanceMessage{
+            color: chartreuse;
+            font-size: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            
+        }
+
+        .button_box{
+            display: flex;
+            gap: 30px;
+        }
+
+        button{
+            background-color: chartreuse;
+            color: #000;
+            font-size: 40px;
+            text-align: center;
+            display: block;
+        }
+       
+
+        input{
+            max-width: 320px;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        label{
+            margin-bottom: 20px;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="big_wrapper">
+       <div class="question_wrapper">
+        <div class="question">View card balance?</div>
+        <div class="button_box">
+            <button name="yes" id="yes">Yes</button>
+            <button name="no" id="no">Cancel</button>
+        </div>
+       </div>
+
+       <div class="currency_wrapper"></div>
+
+       <div class="set_money_wrapper"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
