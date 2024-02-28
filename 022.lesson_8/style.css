@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.voice_box{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 0 auto;
+}
+.voice_item{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.voice_emoji{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
