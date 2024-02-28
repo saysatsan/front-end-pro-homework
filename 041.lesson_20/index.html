@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ДЗ 41. Heroes</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<form class="heroes__form" id="heroesForm">
+		<label>
+			Name Surname: <input type="text" placeholder="Iron Man" value="Iron Man" name="heroName" class="heroName">
+		</label>
+		<label>
+			Comics: <select name="heroComics" class="heroComics"></select>
+		</label>
+		<label>
+			Favourite: 
+			<div class="heroFavouriteInput">
+				<input type="checkbox" name="heroFavourite" class="heroFavourite">
+			</div>
+		</label>
+
+		<button class="addHero" type="submit">Add Hero</button>
+	</form>
+
+	<table class="heroes__table" id="heroesTable">
+		<thead>
+			<tr>
+				<th>Name Surname</th>
+				<th>Comics</th>
+				<th>Favourite</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody></tbody>
+	</table>
+	<script src="script.js"></script>
+</body>
+</html>
